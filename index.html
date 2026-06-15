@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang = "ru">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+        <link rel="stylesheet" href="style.css">
+        <title>3 лаба</title>
+        
+    </head>
+    <body>
+        <h1>Давай построим лабиринт и посчитаем его области?</h1>
+        <p>Высота (макс. 20): <input type="number" id="height" min="0" max="20" value="10"> </p>
+        <p>Ширина (макс. 20): <input type="number" id="width" min="0" max="20"value="10"> </p>
+        <p><button name="button" onclick="setVal()">Построить</button></p>
+        <p id="answer"></p>
+        <canvas id = "maze" width="840" height="840"></canvas>
+        
+        <script src="temp.js"></script>
+        
+    </body>
+</html>
